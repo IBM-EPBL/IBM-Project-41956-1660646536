@@ -46,7 +46,7 @@ def image_refiner(gray):
     return gray
 
 
-# getting the predicted image
+# getting the predicted
 def get_output(path):
     img = cv2.imread(path, 2)
     img_org = cv2.imread(path)
